@@ -11,6 +11,7 @@ while true; do
         exit 
     elif [ $INPUT == "2" ]; then 
         exec ~/Programs/ideaU/bin/idea.sh&
+	exec /usr/bin/slack&
         exit
     fi
 done
