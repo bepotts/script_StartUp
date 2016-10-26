@@ -13,6 +13,7 @@ while true; do
         exec ~/Programs/ideaU/bin/idea.sh&
 	    exec /usr/bin/slack&
         exec /usr/bin/thunderbird&
+        exec /usr/bin/firefox&
         exit
     fi
 done
