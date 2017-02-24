@@ -17,5 +17,6 @@ while true; do
         exit
     elif [ $INPUT == "3" ]; then 
     	exec ~/Programs/webStorm/bin/webstorm.sh&
+    	exit
     fi
 done
