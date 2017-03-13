@@ -10,8 +10,7 @@ while true; do
         exec ~/Programs/cLion/bin/clion.sh&
         exit 
     elif [ $INPUT == "2" ]; then 
-        exec ~/Programs/ideaU/bin/idea.sh&
-	    exec /usr/bin/slack&
+        exec ~/Programs/pyCharm/bin/pycharm.sh&
         exec /usr/bin/thunderbird&
         exec /usr/bin/firefox&
         exit
