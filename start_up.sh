@@ -11,7 +11,6 @@ while true; do
         exit 
     elif [ $INPUT == "2" ]; then 
         exec ~/Programs/pyCharm/bin/pycharm.sh&
-        exec /usr/bin/thunderbird&
         exec /usr/bin/firefox&
         exit
     elif [ $INPUT == "3" ]; then 
