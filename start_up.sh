@@ -12,6 +12,7 @@ while true; do
     elif [ $INPUT == "2" ]; then 
         exec ~/Programs/pyCharm/bin/pycharm.sh&
         exec /usr/bin/firefox&
+	exec /usr/bin/slack&
         exit
     elif [ $INPUT == "3" ]; then 
     	exec ~/Programs/webStorm/bin/webstorm.sh&
